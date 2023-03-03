@@ -94,22 +94,10 @@ python benchmark/TimeTest.py --model **model[ours_t/ours_small_t]** --H **SIZE**
 If you think this project is helpful in your research or for application, please feel free to leave a star⭐️ and cite our paper:
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2303.00440,
-  doi = {10.48550/ARXIV.2303.00440},
-  
-  url = {https://arxiv.org/abs/2303.00440},
-  
-  author = {Zhang, Guozhen and Zhu, Yuhan and Wang, Haonan and Chen, Youxin and Wu, Gangshan and Wang, Limin},
-  
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
-  title = {Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation},
-  
-  publisher = {arXiv},
-  
-  year = {2023},
-  
-  copyright = {arXiv.org perpetual, non-exclusive license}
+@inproceedings{Zhang2023ExtractingMA,
+  title={Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation},
+  author={Guozhen Zhang and Yuhan Zhu and Hongya Wang and Youxin Chen and Gangshan Wu and Limin Wang},
+  year={2023}
 }
 ```
 
