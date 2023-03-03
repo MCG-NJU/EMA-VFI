@@ -19,6 +19,11 @@
 
 In this work, we propose to exploit inter-frame attention for extracting motion and appearance information in video frame interpolation. In particular, we utilize the correlation information hidden within the attention map to simultaneously enhance the appearance information and model motion. Meanwhile, we devise an hybrid CNN and Transformer framework to achieve a better trade-off between performance and efficiency. Experiment results show that our proposed module achieves state-of-the-art performance on both fixed- and arbitrary-timestep interpolation and enjoys effectiveness compared with the previous SOTA method.
 
+Runtime and memory usage compared with previous SOTA method:
+<div align="center">
+  <img src=figs/time.png width=400 />
+</div>
+
 ## :two_hearts:Dependencies
 
 - torch 1.6
