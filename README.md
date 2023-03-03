@@ -1,7 +1,7 @@
 # Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation [arxiv](https://arxiv.org/abs/2303.00440v1)
 
 > [**Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation**](https://arxiv.org/abs/2203.16507)<br>
-> accept to **CVPR 2023**<br>
+> Accepted by **CVPR 2023**<br>
 > [Guozhen Zhang](https://github.com/GuozhenZhang1999), [Yuhan Zhu](https://github.com/Breeze-zyuhan), [Haonan Wang](https://github.com/haonanwang0522), Youxin Chen, [Gangshan Wu](http://mcg.nju.edu.cn/member/gswu/en/index.html), [Limin Wang](http://wanglimin.github.io/)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/extracting-motion-and-appearance-via-inter/video-frame-interpolation-on-vimeo90k)](https://paperswithcode.com/sota/video-frame-interpolation-on-vimeo90k?p=extracting-motion-and-appearance-via-inter)
@@ -18,27 +18,6 @@
 ## :satisfied: HighLights
 
 In this work, we propose to exploit inter-frame attention for extracting motion and appearance information in video frame interpolation. In particular, we utilize the correlation information hidden within the attention map to simultaneously enhance the appearance information and model motion. Meanwhile, we devise an hybrid CNN and Transformer framework to achieve a better trade-off between performance and efficiency. Experiment results show that our proposed module achieves state-of-the-art performance on both fixed- and arbitrary-timestep interpolation and enjoys effectiveness compared with the previous SOTA method.
-
-<!-- * Visual comparison for fixed-timestep interpolation:
-  <div align="center">
-    <img src="figs/fix_inter.png" width="800"/>
-  </div>
-* Visual comparison for multi-timestep interpolation:
-  <div align="center">
-    <img src="figs/arb_inter.png" width="800"/>
-  </div>
-* Quantitative comparison for 2x interpolation:
-  <div align="center">
-    <img src="figs/2x_results.png" width="1000"/>
-  </div>
-* Quantitative comparison for 4x interpolation:
-  <div align="center">
-    <img src="figs/4x_results.png" width="500"/>
-  </div>
-* Speed and memory usage compared with the previous SOTA method:
-  <div align="center">
-    <img src="figs/time.png" width="500"/>
-  </div> -->
 
 ## :two_hearts:Dependencies
 
