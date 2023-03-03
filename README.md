@@ -15,21 +15,21 @@
   <img src="figs/EMA-VFI.png" width="1000"/>
 </div>
 
-## HighLights
+## :satisfied: HighLights
 
 In this work, we propose to exploit inter-frame attention for extracting motion and appearance information in video frame interpolation. In particular, we utilize the correlation information hidden within the attention map to simultaneously enhance the appearance information and model motion. Meanwhile, we devise an hybrid CNN and Transformer framework to achieve a better trade-off between performance and efficiency. Experiment results show that our proposed module achieves state-of-the-art performance on both fixed- and arbitrary-timestep interpolation and enjoys effectiveness compared with the previous SOTA method.
 
 * Visual comparison for fixed-timestep interpolation:
   <div align="center">
-    <img src="figs/fix_inter.png" width="1200"/>
+    <img src="figs/fix_inter.png" width="800"/>
   </div>
 * Visual comparison for multi-timestep interpolation:
   <div align="center">
-    <img src="figs/arb_inter.png" width="1000"/>
+    <img src="figs/arb_inter.png" width="800"/>
   </div>
 * Quantitative comparison for 2x interpolation:
   <div align="center">
-    <img src="figs/2x_results.png" width="1200"/>
+    <img src="figs/2x_results.png" width="1000"/>
   </div>
 * Quantitative comparison for 4x interpolation:
   <div align="center">
@@ -40,7 +40,7 @@ In this work, we propose to exploit inter-frame attention for extracting motion 
     <img src="figs/time.png" width="500"/>
   </div>
 
-## Dependencies
+## :two_hearts:Dependencies
 
 - torch 1.6
 - python 3.8
@@ -50,7 +50,7 @@ In this work, we propose to exploit inter-frame attention for extracting motion 
 - timm 0.6.11
 - tqdm
 
-## Play with Demos
+## :sunglasses:	Play with Demos
 
 1. Download the [model checkpoints](https://drive.google.com/drive/folders/16jUa3HkQ85Z5lb5gce1yoaWkP-rdCd0o?usp=sharing) and put the ```ckpt``` folder into the root dir.
 2. Run the following commands to generate 2x and Nx (arbitrary) frame interpolation demos:
@@ -67,7 +67,7 @@ You will get the follow examples by default:
   <img src=figs/out_Nx.gif width=340 /> 
 </p>
 
-## Training for Fixed-timestep Interpolation
+## :sparkles:	Training for Fixed-timestep Interpolation
 
 1. Download [Vimeo90K dataset](http://toflow.csail.mit.edu/)
 2. Run the following command at the root dir:
@@ -78,7 +78,7 @@ You will get the follow examples by default:
 
 The default training setting is *Ours*. If you want train *Ours_small* or your own model, you can modify the ```MODEL_CONFIG``` in  ```config.py```.
 
-## Evaluation
+## :runner:	Evaluation
 
 1. Download the dataset you need:
 
@@ -110,7 +110,7 @@ You can also test the inference time of our methods on the $H\times W$ image wit
 python benchmark/TimeTest.py --model **model[ours_t/ours_small_t]** --H **SIZE** --W **SIZE**
 ```
 
-## Citation
+## :muscle:	Citation
 
 If you think this project is helpful in your research or for application, please feel free to leave a star⭐️ and cite our paper:
 
@@ -134,6 +134,6 @@ If you think this project is helpful in your research or for application, please
 }
 ```
 
-## License and Acknowledgement
+## :heartpulse:	License and Acknowledgement
 
 This project is released under the Apache 2.0 license. The codes are based on [RIFE](https://github.com/hzwer/arXiv2020-RIFE), [PvT](https://github.com/whai362/PVT), [IFRNet](https://github.com/ltkong218/IFRNet), [Swin](https://github.com/microsoft/Swin-Transformer) and [HRFormer](https://github.com/HRNet/HRFormer). Please also follow their licenses. Thanks for their awesome works.
