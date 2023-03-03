@@ -52,7 +52,7 @@ I0_, I2_ = padder.pad(I0_, I2_)
 
 mid = (padder.unpad(model.inference(I0_, I2_, TTA=TTA, fast_TTA=TTA))[0].detach().cpu().numpy().transpose(1, 2, 0) * 255.0).astype(np.uint8)
 images = [I0[:, :, ::-1], mid[:, :, ::-1], I2[:, :, ::-1]]
-mimsave('example/out_2x.gif', images, fps=1.5)
+mimsave('example/out_2x.gif', images, fps=3)
 
 
 print(f'=========================Done=========================')

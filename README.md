@@ -33,11 +33,11 @@ In this work, we propose to exploit inter-frame attention for extracting motion 
   </div>
 * Quantitative comparison for 4x interpolation:
   <div align="center">
-    <img src="figs/4x_results.png" width="700"/>
+    <img src="figs/4x_results.png" width="500"/>
   </div>
 * Speed and memory usage compared with the previous SOTA method:
   <div align="center">
-    <img src="figs/time.png" width="700"/>
+    <img src="figs/time.png" width="500"/>
   </div>
 
 ## Dependencies
@@ -57,14 +57,14 @@ In this work, we propose to exploit inter-frame attention for extracting motion 
 
 ```shell
 python demo_2x.py        # for 2x interpolation
-python demo_Nx.py --n 8 # for 8x interpolation
+python demo_Nx.py --n 8  # for 8x interpolation
 ```
 
 You will get the follow examples by default:
 
 <p float="left">
-  <img src=example/out_2x_.gif width=340 />
-  <img src=./figures/out_Nx_.gif width=340 /> 
+  <img src=figs/out_2x.gif width=340 />
+  <img src=figs/out_Nx.gif width=340 /> 
 </p>
 
 ## Training for Fixed-timestep Interpolation

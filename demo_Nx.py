@@ -56,7 +56,7 @@ preds = model.multi_inference(I0_, I2_, TTA=TTA, time_list=[(i+1)*(1./args.n) fo
 for pred in preds:
     images.append((padder.unpad(pred).detach().cpu().numpy().transpose(1, 2, 0) * 255.0).astype(np.uint8)[:, :, ::-1])
 images.append(I2[:, :, ::-1])
-mimsave('example/out_Nx.gif', images, fps=args.n//2)
+mimsave('example/out_Nx.gif', images, fps=args.n)
 
 
 print(f'=========================Done=========================')

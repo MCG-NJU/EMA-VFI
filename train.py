@@ -91,6 +91,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     torch.distributed.init_process_group(backend="nccl", world_size=args.world_size)
     torch.cuda.set_device(args.local_rank)
+    if args.local_rank == 0 and not os.path.exists('log'):
+        os.mkdir('log')
     seed = 1234
     random.seed(seed)
     np.random.seed(seed)
