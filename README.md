@@ -44,7 +44,7 @@ python demo_2x.py        # for 2x interpolation
 python demo_Nx.py --n 8  # for 8x interpolation
 ```
 
-You will get the follow examples by default:
+By running above commands, you should get the follow examples by default:
 
 <p float="left">
   <img src=figs/out_2x.gif width=340 />
