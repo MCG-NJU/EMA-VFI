@@ -1,6 +1,6 @@
-# Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation [arxiv](https://arxiv.org/abs/2303.00440v1)
+# Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation [arxiv](https://arxiv.org/abs/2303.00440)
 
-> [**Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation**](https://arxiv.org/abs/2303.00440v1)<br>
+> [**Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation**](https://arxiv.org/abs/2303.00440)<br>
 > Accepted by **CVPR 2023**<br>
 > [Guozhen Zhang](https://github.com/GuozhenZhang1999), [Yuhan Zhu](https://github.com/Breeze-zyuhan), [Haonan Wang](https://github.com/haonanwang0522), Youxin Chen, [Gangshan Wu](http://mcg.nju.edu.cn/member/gswu/en/index.html), [Limin Wang](http://wanglimin.github.io/)
 
@@ -91,7 +91,7 @@ python benchmark/**dataset**.py --model **model[ours_t/ours_small_t]** --path /w
 You can also test the inference time of our methods on the $H\times W$ image with the following command:
 
 ```shell
-python benchmark/TimeTest.py --model **model[ours_t/ours_small_t]** --H **SIZE** --W **SIZE**
+python benchmark/TimeTest.py --model **model[ours/ours_small]** --H **SIZE** --W **SIZE**
 ```
 
 ## :muscle:	Citation
