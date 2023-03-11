@@ -26,7 +26,7 @@ Runtime and memory usage compared with previous SOTA method:
 
 ## :two_hearts:Dependencies
 
-- torch 1.6
+- torch 1.8.0
 - python 3.8
 - skimage 0.19.2
 - numpy 1.23.1
