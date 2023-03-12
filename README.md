@@ -41,7 +41,7 @@ Runtime and memory usage compared with previous SOTA method:
 
 ## :sunglasses:	Play with Demos
 
-1. Download the [model checkpoints](https://drive.google.com/drive/folders/16jUa3HkQ85Z5lb5gce1yoaWkP-rdCd0o?usp=sharing) and put the ```ckpt``` folder into the root dir.
+1. Download the [model checkpoints](https://drive.google.com/drive/folders/16jUa3HkQ85Z5lb5gce1yoaWkP-rdCd0o?usp=sharing) ([baidu](https://pan.baidu.com/s/1kvxubOrCxq2Mjc6SXZSa0w)&code:gi5j)and put the ```ckpt``` folder into the root dir.
 2. Run the following commands to generate 2x and Nx (arbitrary) frame interpolation demos:
 
 ```shell
