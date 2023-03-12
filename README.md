@@ -17,6 +17,7 @@
 
 ## :boom: News
 
+* **[2023.03.12] We compared our method with other methods (VFIFormer and M2M) under extreme cases such as large motion and scene transitions. The video demonstrating our results can be found [here](https://www.youtube.com/watch?v=ziJLIPzu2HI).**
 * **[2023.03.12] Thanks to @[jhogsett](https://github.com/jhogsett), our model now has a more user-friendly [WebUI](https://github.com/jhogsett/EMA-VFI-WebUI)!**
 
 ## :satisfied: HighLights
